@@ -10,3 +10,9 @@ Choose L=200 and N=1000. Visualize the resulting cluster (as shown below). Measu
 """
 
 import matplotlib.pyplot as plt
+import numpy as np
+
+
+L = 50
+L_matrix = np.zeros((L,L))
+
