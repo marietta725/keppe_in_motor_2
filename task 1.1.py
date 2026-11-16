@@ -10,3 +10,6 @@ Choose L=200 and N=1000. Visualize the resulting cluster (as shown below). Measu
 """
 
 import matplotlib.pyplot as plt
+
+L = 200
+grid = np.zeros((L+1, L+1), dtype=int)
